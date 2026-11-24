@@ -12,6 +12,16 @@ for exactly one commuter, a warm bus, a short queue, dry socks. The
 concrete details (the bus, the queue, the socks) make Gloomsbury feel
 like a place a commuter actually stands in, and the small joke is the
 forecast caring about one person's morning.
+
+Second pass — why the line works, in its own terms. The voice is a
+local radio forecaster who knows the city by its pavements, not its
+postcodes: plain, unhurried, a little fond of the place. The twist is
+scale — the forecast zooms from a whole-city sky (rain until 5pm) down
+to one commuter's morning, and the sunshine is rationed to exactly one
+person, which is both impossible weather and exactly how a good morning
+feels. The three comforts are ordered from outside in — the bus, the
+queue, the socks — so the line ends on the smallest, driest detail,
+the one a commuter would actually check first.
 """
 
 import os
