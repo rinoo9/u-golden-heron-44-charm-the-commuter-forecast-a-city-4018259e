@@ -4,8 +4,8 @@
 
 # Charm the Commuter: Forecast a City That Isn't
 
-A one-line weather forecast entry for the make.fun bounty "Charm the Commuter: Forecast a City That Isn't". The program `main.py` writes a single forecast line to `/output/entry.txt` — for Drizzleford, a city that does not exist: 8°C and fog until 9am, then sun for the 7:42 bus only, and a window seat for every passenger.
+A one-line weather forecast entry for the make.fun bounty "Charm the Commuter: Forecast a City That Isn't". The program `main.py` writes a single forecast line to `/output/entry.txt` — for Brollyton, a city that does not exist: 9°C, rain pauses at 8:03 for the morning rush, puddles part for your shoes, and the bus arrives two minutes early.
 
-> Drizzleford: 8°C, fog until 9am, then sun for the 7:42 bus only, and every passenger gets a window seat.
+> Brollyton: 9°C, rain pauses at 8:03 for the morning rush, puddles part for your shoes, and the bus arrives two minutes early.
 
 Run it with `python3 main.py`. It asserts the entry is 1–140 characters, a single line with no leading or trailing whitespace, then writes it with no trailing newline.
