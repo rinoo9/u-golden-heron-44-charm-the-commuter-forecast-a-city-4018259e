@@ -3,33 +3,34 @@
 "Charm the Commuter: Forecast a City That Isn't".
 
 Writes exactly one line — a forecast for the invented city of
-Gloomsbury — to /output/entry.txt. Deterministic: no input, no
+Brollyton — to /output/entry.txt. Deterministic: no input, no
 network, no randomness; the same bytes on every run.
 
 Craft notes: the line keeps the rhythm of a real broadcast forecast
-(city, temperature, fog until a time) and then bends it — sunshine
-rationed to a single bus, the 7:42, and a window seat for every
-passenger on it. The concrete details (the bus, the window seat)
-make Drizzleford feel like a place a commuter actually stands in,
-and the small joke is the forecast caring about one busload of
-people's morning.
+(city, temperature, rain with a precise pause time) and then bends
+it — the weather itself cooperates with the morning rush. The rain
+pauses at 8:03, the puddles part for the commuter's shoes, and the
+bus arrives two minutes early: three small kindnesses, each one
+concrete, each one something a commuter at a wet bus stop actually
+wishes for. The joke is that the forecast is not describing weather
+at all, but a city being polite.
 
 Second pass — why the line works, in its own terms. The voice is a
 local radio forecaster who knows the city by its pavements, not its
-postcodes: plain, unhurried, a little fond of the place. The twist is
-scale — the forecast zooms from a whole-city sky (fog until 9am) down
-to one bus at one minute, and the sunshine is rationed to exactly
-that bus, which is both impossible weather and exactly how a good
-morning feels. The two comforts are ordered from outside in — the
-sun, then the seat — so the line ends on the smallest detail, the
-one a commuter would actually check first.
+postcodes: plain, unhurried, a little fond of the place. The twist
+is courtesy — the weather behaves like a good neighbour, pausing
+its rain and parting its puddles on schedule, and the line ends on
+the smallest, most welcome detail of all, a bus that is early
+instead of late. The three kindnesses are ordered from sky to
+street to timetable, so the line lands on the one a commuter would
+actually check first.
 """
 
 import os
 
 ENTRY = (
-    "Drizzleford: 8\u00b0C, fog until 9am, then sun for the 7:42 bus "
-    "only, and every passenger gets a window seat."
+    "Brollyton: 9\u00b0C, rain pauses at 8:03 for the morning rush, "
+    "puddles part for your shoes, and the bus arrives two minutes early."
 )
 
 
